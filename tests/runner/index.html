@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Mocha</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="../../node_modules/grunt-mocha/node_modules/mocha/mocha.css">
+	</head>
+	<body>
+		<div id="mocha"></div>
+
+		<script src="../../node_modules/grunt-mocha/node_modules/mocha/mocha.js"></script>
+		<script>mocha.setup('bdd');</script>
+
+		<script src="../../node_modules/sinon/pkg/sinon.js"></script>
+		<script src="../../node_modules/chai/chai.js"></script>
+		<script src="../../node_modules/sinon-chai/lib/sinon-chai.js"></script>
+		<script>chai.should();</script>
+
+		<script src="../../built/js/app.min.js"></script>
+
+		<script src="../specs/main.js"></script>
+		<script src="../specs/carousel.js"></script>
+
+		<script>
+				if (navigator.userAgent.indexOf('PhantomJS') < 0) {
+						mocha.run();
+				}
+		</script>
+	</body>
+</html>

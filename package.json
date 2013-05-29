@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "0.0.0",
+  "description": "A project with assets managed by grunt",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "chai": "~1.6.0",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-mocha": "~0.3.2",
+    "sinon": "~1.7.2",
+    "grunt-lib-phantomjs": "~0.3.0",
+    "phantomjs": "~1.9.0-4",
+    "sinon-chai": "~2.4.0",
+    "matchdep": "~0.1.2",
+    "grunt-requirejs": "~0.3.5",
+    "grunt-contrib-uglify": "~0.2.1"
+  },
+  "engine": "node 0.4.1"
+}
