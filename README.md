@@ -5,5 +5,6 @@
 - `gem install bundler`
 - `bundle install`
 - `brew install phantomjs`
+- `npm install`
 
 Run `grunt --verbose` and make some changes to watch the magics.
