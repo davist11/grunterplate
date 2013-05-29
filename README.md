@@ -6,4 +6,4 @@
 - `bundle install`
 - `brew install phantomjs`
 
-Run `grunt` and make some changes to watch the magics.
+Run `grunt --verbose` and make some changes to watch the magics.
